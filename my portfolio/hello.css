@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    margin-top: 10px;
+    background-color: #0B192C;
+}
+
+h1,
+ul,
+li {
+    display: inline;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #d96846;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-left: 20px;
+}
+
+nav {
+    margin-left: 50px;
+}
+
+ul {
+    padding-left: 40%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+a:hover {
+    color: rgb(19, 128, 172);
+}
+
+.para {
+    margin-top: 15%;
+    margin-left: 60px;
+    
+}
+
+#name,#text {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: inline;
+    background-image: linear-gradient( rgb(19, 128, 172),#e100fe);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+   
+}
+
+#name:hover {
+   
+    cursor: pointer;
+    background-size: 100% 100%;
+    color: yellow;
+    
+}
+
+#text:hover {
+    cursor: pointer;
+    background-size: 100% 100%;
+    color: yellow;
+}
+
+.front {
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+img {
+    
+    position: absolute;
+    bottom: 70px;
+    margin-left: 25%;
+    border-radius: 50%;
+    transition: background-color, box-shadow, transform 2s;
+   
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 4px 5px #ffa500;
+}
+
+
+.icon {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.fa-facebook {
+   
+    font-size: 40px;
+    color: #3C5898;
+    transition: color, box-shadow;
+   
+}
+
+.fa-facebook:hover{
+    box-shadow: 0px 0px 2px 5px #4267B2;
+    border-radius: 45%;
+}
+
+.fa-square-twitter {
+    font-size: 40px;
+    color: #1D9BF0;
+    transition: color, box-shadow,  transform 2s;
+}
+.fa-square-twitter:hover{
+    box-shadow: 0px 0px 2px 5px #1D9BF0;
+    border-radius: 8%;
+}
+.fa-instagram{
+    font-size: 40px;
+    color: #e4405f;
+    transition: color, box-shadow,  transform 2s;
+}
+.fa-instagram:hover{
+    box-shadow: 0px 0px 2px 5px #e4405f;
+    border-radius: 8%;
+}
+button{
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 3px;
+    border: none;
+    transition: box-shadow, transform 2s;
+}
+button:hover{
+   color: white;
+   background-color: #ffa500;
+   box-shadow: 0px 0px 1px 5px #808080;
+   border-radius: 10%;
+}
